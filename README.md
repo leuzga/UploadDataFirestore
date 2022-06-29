@@ -5,15 +5,18 @@ Como subir a la plataforma Firebase/Firestore un archivo JSON a collection/docum
 ### Paso 1
   ![](./2022-06-29%2010%2048%2042.jpg)
 ### Paso 2
-  Una Vez que tienes tu archivo de credenciales "Clave Privada", sustituya su archivo que genero la plataforma coloquelo en esta misma carpeta actual
+  - Una Vez que tienes tu archivo de credenciales "Clave Privada", sustituya su archivo que genero la plataforma coloquelo en esta misma carpeta actual
+  
   **Sugerencia:**
       -Puede renombrar su archivo a "key_service_account.json"  o modificar el nombre en el archivo "upload_data.js"
 ### Paso 3
-  Copie su archivo de datos en esta misma carpeta actual, sustituyendo el que se encuentra de ejemplo.
+  - Copie su archivo de datos en esta misma carpeta actual, sustituyendo el que se encuentra de ejemplo.
+  
   **Sugerencia:**
       -Puede renombrar su archivo JSON a "data.json"  o modificar el nombre en el archivo "upload_data.js"
 ### Paso 4
-  Modifique el archivo upload_data.js.
+  - Modifique el archivo upload_data.js.
+  
   **TIPS:**
     - si renombro sus archivos a los recomendados solo debes cambiar el nombre de tu collection en la linea 6
       const collectionKey = "aQUI VA EL NOMBRE DE TU COLECCION"; 
