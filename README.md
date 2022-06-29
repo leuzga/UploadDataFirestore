@@ -38,6 +38,8 @@ Como subir a la plataforma Firebase/Firestore un archivo JSON a collection/docum
 
 ### Paso 6
   ejecute en su consola/Terminal el siguiente Comando
-  node upload_data.js
+
+    node upload_data.js
+
 - Este comando deberia cargar con exito la data del archivo data.json a su proyecto en firestore
   
