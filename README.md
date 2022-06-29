@@ -33,7 +33,9 @@ Como subir a la plataforma Firebase/Firestore un archivo JSON a collection/docum
 ---
 ### Paso 5
   **Asegurese de tener instalado el paquete firebase-admin mediante NPM**
+  
     npm install --save firebase-admin
+
 ### Paso 6
   ejecute en su consola/Terminal el siguiente Comando
   node upload_data.js
