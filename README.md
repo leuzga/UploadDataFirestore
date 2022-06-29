@@ -19,6 +19,7 @@ Como subir a la plataforma Firebase/Firestore un archivo JSON a collection/docum
   
   **TIPS:**
     - si renombro sus archivos a los recomendados solo debes cambiar el nombre de tu collection en la linea 6
+    
     ---
       ```
       const collectionKey = "AQUI VA EL NOMBRE DE TU COLECCION";
@@ -28,7 +29,7 @@ Como subir a la plataforma Firebase/Firestore un archivo JSON a collection/docum
       const serviceAccount = require("./AQUI VA EL NOMBRE DEL ARCHIVO DE LAS CLAVE QUE GENERASTE EN FIREBASE");
       const data = require("./AQUI VA EL NOMBRE DE TU ARCHIVO DE DATOS json");
       ```
-   ---
+---
 ### Paso 5
   **Asegurese de tener instalado el paquete firebase-admin mediante NPM**
     npm install --save firebase-admin
